@@ -1,0 +1,10 @@
+main.py
+
+def confusion(string):
+  for i in range(len(string)):
+    for j in range(len(string)):
+      print(str('"' + string[i:j + 1]) + '"')
+
+
+confusion('abcde')
+
